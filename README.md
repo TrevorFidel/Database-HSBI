@@ -1,6 +1,8 @@
-# Personal Portfolio for the IoT/MCU class <at university/school>
+# Personal Portfolio for the Database module at HSBI
 
-> When you start editing this file, remove this description.
+> The Portfolio includes my database classes and progress
+> in the course Mechatronics and Automation engineering at
+> Hochschule Bielefeld (Gütersloh).
 >
 > Fork this repository (or use it as template).
 > Everything that you do for this class should be documented here
@@ -43,9 +45,10 @@
 > - If you want to take a class on git and even potentially get certified:
 >   https://education.github.com/experiences/foundations_certificate
 
-Author: <replace these pointy brackets with your full name>
+Author: <Trevor Fidel Nyongesa>
 
-My partner is <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
+My partner is Ryan Reilly Oduory, [portfolio link](https://github.com/reilly-codes/Database-class/blob/main/README.md)
+My partner is Trevor Kiio, [portfolio link]([https:(https://github.com/tkiio/Databases-Portfolio.git/README.md))
 
 In my team for the final project, I also had the following members:
 - <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
