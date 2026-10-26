@@ -1,0 +1,3 @@
+## LLM Verification Reflection
+
+I asked ChatGPT to generate a SQL query that calculates the average spindle load for each machine using readings taken after 18:00. The query executed successfully and returned one average per machine, ordered from highest to lowest. The execution plan helps me understand whether SQLite scans the readings table. I also tested the risk of using `LIKE '%18%'` instead of a proper time filter, because matching text anywhere in a timestamp can include readings that do not meet the intended time condition. This task showed me that LLM-generated SQL can be useful, but I must run it, inspect its execution plan, and test possible mistakes before trusting the results.

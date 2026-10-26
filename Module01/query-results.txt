@@ -1,0 +1,19 @@
+
+1. Readings per machine
+-----------------------
+cnc-01 | 57600
+cnc-02 | 57600
+cnc-03 | 57600
+Elapsed time: 0.089580 seconds
+
+2. Peak vibration per machine
+-----------------------------
+cnc-01 | 2.398
+cnc-02 | 3.168
+cnc-03 | 2.55
+Elapsed time: 0.121497 seconds
+
+3. Readings exceeding the 2.0 mm/s alarm
+----------------------------------------
+11714
+Elapsed time: 0.024516 seconds

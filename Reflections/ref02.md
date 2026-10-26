@@ -1,0 +1,3 @@
+# Reflection 2 
+
+I got to understand about ER models and how it enables us visualize  how data can be organized in a database. Auditing a Legacy Schema was abit challenging than I had imagined. despite having prior knowledge with VSCODe I still faced challenges especially with using the git terminal since my device had several terminals I used in the past. all in all I eventually got a breakthrough via the help from professor. 

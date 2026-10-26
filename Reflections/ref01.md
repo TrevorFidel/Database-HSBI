@@ -1,13 +1,3 @@
 # Reflection 1 in Module 1
 
-- What is your take-away, what do you want to remember, what would be your advice?
-  Take-away can be small summary, but better outstanding points.
-- What was good?
-- What was difficult, where did you struggle?
-- Was there any good/fun “struggling”/exploration?
-  Any show stoppers – anything where you should reach out to peers or instructors? 
-- How was your interaction with peers/instructors?
-- Help and extra work
-  - Who helped you, gave feedback, was it valuable?
-  - Who did you help, gave feedback to?
-  - Did you present, implement, made a PR, or fix something that was crucial for the class in itself?
+This being the first database class,I learnt what a database is, why SQL is used and mostly more about embedded vs client/server. Key takeaways include how database help us organize information for easier future retrieval and reference.. On the othr hand SQL helps us ask questions about the information. I want to understand more about queries and all in all more about SQL through doing practical exercises day in day out. SQl Island was a very engaging way to learn SQl, from it one can work out and get basic knowledge required for navigating around SQL. Had some issues with terminal settings but my group members helped me sort it out.. Not only Github but also VS Code wasn't a new thing to me since I had interracted with it before. I also helped a few friends out of my pod with setups. Working in pods helped strengthen my ability to learn and inquire freely.
