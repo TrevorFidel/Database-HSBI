@@ -7,7 +7,7 @@
 Author: <Trevor Fidel Nyongesa>
 
 - My partner is Ryan Reilly Oduory, [portfolio link](https://github.com/reilly-codes/Database-class/blob/main/README.md),
-- My other partner is Trevor Kiio, [portfolio link](https://github.com/tkiio/Databases-Portfolio.git+)
+- My other partner is Trevor Kiio, [portfolio link](https://github.com/tkiio/Databases-Portfolio.git)
 
 In my team for the final project, I also had the following members:
 - <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio),
