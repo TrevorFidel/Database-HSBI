@@ -27,4 +27,4 @@ INSERT INTO orders(order_id, customer_id, ordered_on, status)
 
 WITH RECURSIVE n(x) AS (SELECT 1 UNION ALL SELECT x+1 FROM n WHERE x < 240000)
 INSERT INTO order_line(order_id, product_id, qty)
-  SELECT (x % 60000) + 1, (x % 500) + 1, 1 + (x % 4) FROM n;
+  SELECT (x % 60000) + 1, (x % 500) + 1, 1 + (x % 4) FROM n

@@ -1,3 +1,29 @@
-# Reflection 1 in Module 1
+# Reflection 01 — Introduction to Databases
 
-This being the first database class,I learnt what a database is, why SQL is used and mostly more about embedded vs client/server. Key takeaways include how database help us organize information for easier future retrieval and reference.. On the othr hand SQL helps us ask questions about the information. I want to understand more about queries and all in all more about SQL through doing practical exercises day in day out. SQl Island was a very engaging way to learn SQl, from it one can work out and get basic knowledge required for navigating around SQL. Had some issues with terminal settings but my group members helped me sort it out.. Not only Github but also VS Code wasn't a new thing to me since I had interracted with it before. I also helped a few friends out of my pod with setups. Working in pods helped strengthen my ability to learn and inquire freely.
+## Take-away
+
+As this was my first database class, I learned what a database is, why SQL is used, and the differences between embedded and client/server databases. My main takeaway was that databases help us organize and store information for easy retrieval and reference, while SQL allows us to query and interact with that information. I want to improve my SQL skills through regular practice and practical exercises.
+
+## What was good?
+
+SQL Island was an engaging and interactive way to learn SQL. It helped me understand the basics and develop the foundational knowledge needed to navigate SQL. I also found the introduction to databases useful because it helped me understand how data is organized and accessed.
+
+## What was difficult?
+
+I experienced some difficulties with my terminal settings during the setup process. However, with the help of my group members, I was able to resolve the issues and continue with the exercises. This taught me the importance of troubleshooting and asking for help when necessary.
+
+## Exploration and show stoppers
+
+Exploring SQL Island was an enjoyable way to practice SQL and understand how queries work. I would like to explore more SQL queries and database operations through practical exercises to strengthen my understanding. The terminal configuration issues were a minor obstacle, but I was able to overcome them with support from my peers.
+
+## Interaction with peers and instructors
+
+Working in pods created a supportive learning environment where I could ask questions and learn freely. My group members helped me resolve my terminal setup issues, and I also helped a few friends outside my pod with their setups. This experience showed me the value of collaboration and sharing knowledge.
+
+## How did you verify AI suggestions?
+
+I focused on understanding the database concepts introduced in class and practising SQL through SQL Island. I can further strengthen my learning by testing queries, observing their outputs, and comparing the results with the expected outcomes rather than relying solely on explanations.
+
+## Help and extra work
+
+My group members helped me resolve the terminal configuration issues, which allowed me to continue with the practical work. I also assisted a few classmates outside my pod with their setups. Additionally, I was already familiar with GitHub and VS Code from previous experience, which made it easier for me to follow the development environment setup.
