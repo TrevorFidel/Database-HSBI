@@ -10,12 +10,15 @@ Explain how this class works — the CBL/PBL philosophy, the portfolio-based pro
 Set up your personal GitHub portfolio from the course template, with a clean first commit and a .gitignore that keeps databases and secrets out of Git.
 
 Set up the entire toolchain reproducibly with uv — one fixed Python plus SQLite, DuckDB, Datasette, and more — on Windows, macOS, or Linux, and verify it.
+[Uv setup confirmation](uv-check.py)
 
 Explain — with a measurement, not a slide — the difference between an embedded database and a client/server database, and why most local apps should not run a server.
 
 Load real rows into SQLite and query them from Python using bound parameters.
+[SQlite Query telementary](query_telemetry.py)
 
 Take a first LLM-generated query, run it, and begin the habit that defines this course: verify before you trust.
+[LLM generated Query](llm-query-reflection.md)
 
 
 > 
@@ -36,6 +39,7 @@ Programming experience: I have   interracted with Kotlin, pyton, CPP and Javascr
 
 ## LLM explanation
 I asked ChatGPT to generate a SQL query that calculates the average spindle load for each machine using readings taken after 18:00. The query executed successfully and returned one average per machine, ordered from highest to lowest. The execution plan helps me understand whether SQLite scans the readings table. I also tested the risk of using `LIKE '%18%'` instead of a proper time filter, because matching text anywhere in a timestamp can include readings that do not meet the intended time condition. This task showed me that LLM-generated SQL can be useful, but I must run it, inspect its execution plan, and test possible mistakes before trusting the results.
+[LLM explanation](llm-query-reflection.md)
 
 ## Reflection 1
 [Reflection 1](/Reflections/ref01.md)

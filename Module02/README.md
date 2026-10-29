@@ -11,14 +11,19 @@ Express a schema as a code-first data contract (Pydantic / SQLAlchemy) that an a
 Write the requirements the schema forgot: the business rules nobody encoded.
 We are going to show here notes for Task 1, 2, 3, 4, and 5 to prove
 
+## Links to my tasks
+[study log.md](study-log.md)
+
+[Er-audit.md file](er-audit.md)
+
+[er-examples.md](er-examples.md)
+
+[mermaid-lab.md](mermaid-lab.md)
+
+
 ## Task ...
 
-This task was executed by myself.
 
-## Task ...
-
-This task was executed by my partner. The implementation was about ... 
-It is [here](https://github.com/partner/iot-portfolio/Module02/Readme.md#task-2).
 
 ## Reflection 2
 [Reflection 2](/Reflections/ref02.md)
