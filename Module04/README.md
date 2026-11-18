@@ -1,18 +1,46 @@
-## Module04 
+# Module 4 — Data Definition, Manipulation and Integrity
 
-# Learning Goals
+In this module, I explored how to define database structures, manipulate data safely and enforce integrity rules directly within the database.
 
-Learning Goals
-This module gives you the opportunity to explore data-definition, manipulation, and integrity and achieve competency in enforcing rules where the data lives.
+My main focus was understanding how constraints, generated columns, triggers and UPSERT operations help maintain reliable data, as well as how access control works in an embedded, local-first database environment.
 
-By the end of this module, you can:
+## Learning Goals
 
-Create tables with the full constraint toolkit: NOT NULL, UNIQUE, CHECK, PRIMARY KEY, FOREIGN KEY, and STRICT typing.
+By completing this module, I aimed to demonstrate that I could:
 
-Use generated columns to derive values at the engine instead of in application code.
+1. **Apply database constraints:** Create tables using `NOT NULL`, `UNIQUE`, `CHECK`, `PRIMARY KEY`, `FOREIGN KEY` and `STRICT` typing to enforce data integrity.
+2. **Use generated columns:** Derive values directly within the database engine instead of relying on application code.
+3. **Create database triggers:** Enforce domain rules and automatically maintain audit or rollup tables.
+4. **Use DML and UPSERT correctly:** Apply `INSERT`, `UPDATE`, `DELETE` and `ON CONFLICT` to support reliable and idempotent data ingestion.
+5. **Understand database access control:** Reason about read and write permissions, including how server-based `GRANT` permissions differ from access control in embedded, local-first databases.
 
-Write triggers that enforce domain rules and maintain audit/rollup tables automatically.
+## My Work and Evidence
 
-Use DML correctly — including UPSERT (ON CONFLICT) for idempotent edge ingestion.
+Throughout this module, I completed practical exercises covering database constraints, data ingestion, triggers and access control.
 
-Reason about access control (DCL): who may read or write, and how that maps from server GRANTs to an embedded, local-first world.
+| Task | What I worked on | Evidence |
+|---|---|---|
+| 1 — Constraints and generated columns | Used constraints and `STRICT` tables to enforce data integrity, and explored generated columns. | [Module04/integrity-notes.md] |
+| 2 — UPSERT and CSV ingestion | Used Python, `executemany()` and `ON CONFLICT` to import CSV data safely and support repeatable ingestion. | [Module04/ingest.py] |
+| 3 — Triggers and auditing | Created triggers to enforce rules and maintain audit records, then compared their performance. | [Module04/integrity-notes.md] |
+| 4 — Access control | Explored views, file permissions and read-only connections to control database access. | [Module04/integrity-notes.md] |
+
+## Key Takeaways
+
+This module helped me understand that data integrity should be enforced as close to the data as possible.
+
+I learned how constraints prevent invalid records, how generated columns reduce repeated application logic, and how triggers automate database actions.
+
+I also gained practical experience with UPSERT for reliable data ingestion and learned how access control must be considered differently in embedded databases compared with traditional database servers.
+
+## Navigation
+
+**Portfolio Home:** [[Home](../README.md)]
+
+**Module 4 — Integrity-notes.md:** [[integrity-notes.md](integrity-notes.md)]
+
+**Module 4 — Reflection:** [[ref04](../Reflections/ref04.md)]
+
+**Previous Module — Module 3:** [[Module03](../Module03/README.md)]
+
+**Next Module — Module 5:** [[Module05](../Module05/README.md)]

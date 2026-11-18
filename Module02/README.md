@@ -1,40 +1,47 @@
-# Module 2
+# Module 2 — Database Modelling, Integrity and Schema Auditing
 
-## Learning goals
-Reconstruct an ER/EER model (entities, attributes, keys, relationships, cardinalities) from an undocumented SQL schema.
+In this module, I explored how to understand an existing database schema, reconstruct its data model and identify problems that could affect data integrity.
 
-Identify integrity defects — missing foreign keys, orphan rows, redundant data, normalization violations — with queries, not intuition.
-Distinguish an entity relationship from an attribute, and a surrogate key from a natural key, and justify the choice.
+My main focus was learning how to interpret database structures, distinguish relationships and keys, investigate integrity defects and translate database designs into application-level data contracts.
 
-Express a schema as a code-first data contract (Pydantic / SQLAlchemy) that an application can enforce.
+## Learning Goals
 
-Write the requirements the schema forgot: the business rules nobody encoded.
-We are going to show here notes for Task 1, 2, 3, 4, and 5 to prove
+By completing this module, I aimed to demonstrate that I could:
 
-## Links to my tasks
-[study log.md](study-log.md)
+1. **Reconstruct ER/EER models:** Identify entities, attributes, keys, relationships and cardinalities from an undocumented SQL schema.
+2. **Audit database integrity:** Use SQL queries to identify missing foreign keys, orphan records, redundant data and normalization problems.
+3. **Understand database modelling concepts:** Distinguish entities from attributes and surrogate keys from natural keys, and justify appropriate design choices.
+4. **Create code-first data contracts:** Represent database structures using Pydantic and SQLAlchemy so applications can enforce data requirements.
+5. **Identify missing business rules:** Document requirements and constraints that are important to the business but are not enforced by the existing schema.
 
-[Er-audit.md file](er-audit.md)
+## My Work and Evidence
 
-[er-examples.md](er-examples.md)
+Throughout this module, I completed five practical tasks involving database modelling, schema auditing, integrity checks and application-level data contracts.
 
-[mermaid-lab.md](mermaid-lab.md)
+| Task | What I worked on | Evidence |
+|---|---|---|
+| 1 — Schema investigation | Studied the existing database structure and documented my findings. | [study-log.md] |
+| 2 — ER/EER modelling and audit | Reconstructed relationships and investigated schema integrity defects. | [er-audit.md] |
+| 3 — Keys and relationships | Explored modelling examples, entity relationships and key design choices. | [er-examples.md] |
+| 4 — Schema visualisation | Practised representing database structures and relationships using Mermaid diagrams. | [mermaid-lab.md] |
+| 5 — Data contracts and business rules | Documented application-level requirements and business rules that the schema should enforce. | [Module02/study-log.md] |
 
+## Key Takeaways
 
-## Task ...
+This module helped me understand that an existing database schema does not always tell the whole story.
 
+I learned to reconstruct relationships, identify integrity problems using SQL and distinguish between different types of keys and database objects.
 
+I also gained an appreciation for documenting business rules and expressing database requirements in a way that both the database and application can enforce.
 
-## Reflection 2
-[Reflection 2](/Reflections/ref02.md)
+## Navigation
 
-## Task ...
+**Portfolio Home:** [[Home](../README.md)]
 
-...
+**Module 2 — Mermaid-lab.md:** [[mermaid-lab.md](mermaid-lab.md)]
 
-If the module is longer than 1 week, you might have several reflections within it. If not, delete this and the following.
+**Module 2 — Study Log:** [[study-log.md](study-log.md)]
 
-## Reflection 3
-[Reflection 3](/Reflections/ref03.md)
+**Module 2 — Reflection:** [[ref02](../Reflections/ref02.md)]
 
-
+**Next Module — Module 3:** [[Module03](../Module03/README.md)]
