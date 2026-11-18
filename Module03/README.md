@@ -20,11 +20,11 @@ Throughout this module, I completed practical exercises that helped me develop m
 
 | Task | What I worked on | Evidence |
 |---|---|---|
-| 1 — Complex SQL queries | Practised joins, aggregations, subqueries, filtering and window functions. | [Add link] |
-| 2 — Query execution plans | Investigated how SQLite executes queries using `EXPLAIN QUERY PLAN`. | [Add link] |
-| 3 — Index performance | Compared query performance with and without indexes and examined index selection by the query planner. | [Add link] |
-| 4 — AI-generated SQL | Used AI-generated queries and checked their correctness, performance and edge cases. | [Add link] |
-| 5 — SQL injection | Explored SQL injection through string concatenation and applied bound parameters as a safer approach. | [Add link] |
+| 1 — Complex SQL queries | Practised joins, aggregations, subqueries, filtering and window functions. | [Module03/sql-notes.md] |
+| 2 — Query execution plans | Investigated how SQLite executes queries using `EXPLAIN QUERY PLAN`. | [Module03/pictures/query-plan-run-results.png] |
+| 3 — Index performance | Compared query performance with and without indexes and examined index selection by the query planner. | [Module03/pictures/index-benchmark-sqlnotes.png] |
+| 4 — AI-generated SQL | Used AI-generated queries and checked their correctness, performance and edge cases. | [Module03/sql-notes.md] |
+| 5 — SQL injection | Explored SQL injection through string concatenation and applied bound parameters as a safer approach. | [Module03/sql-notes.md] |
 
 ## Key Takeaways
 
