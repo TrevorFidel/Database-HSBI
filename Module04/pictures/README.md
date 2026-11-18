@@ -1,18 +1,3 @@
-## Module04 
+# Pictures for Module04
 
-# Learning Goals
-
-Learning Goals
-This module gives you the opportunity to explore data-definition, manipulation, and integrity and achieve competency in enforcing rules where the data lives.
-
-By the end of this module, you can:
-
-Create tables with the full constraint toolkit: NOT NULL, UNIQUE, CHECK, PRIMARY KEY, FOREIGN KEY, and STRICT typing.
-
-Use generated columns to derive values at the engine instead of in application code.
-
-Write triggers that enforce domain rules and maintain audit/rollup tables automatically.
-
-Use DML correctly — including UPSERT (ON CONFLICT) for idempotent edge ingestion.
-
-Reason about access control (DCL): who may read or write, and how that maps from server GRANTs to an embedded, local-first world.
+![alt text](ro_antidelete.png) ![alt text](mode_ro.png) ![alt text](machine_results.png) ![alt text](ingest_10000_rows.png) ![alt text](with_time_triger.png) ![alt text](without_time_triger.png) ![alt text](<Screenshot 2026-11-12 014145.png>) ![alt text](audit_triger_results.png) ![alt text](alarm_triger_test.png) ![alt text](trigger_ddl.png) ![alt text](row_count3.png) ![alt text](injest_py.png) ![alt text](ingest_py_results.png) ![alt text](sql_upsert.png) ![alt text](python_ingest_script.png) ![alt text](upsert_test.png) ![alt text](unique_constraint.png) ![alt text](referential_integrity_test.png) ![alt text](test_string_typing.png) ![alt text](domain_constraint.png) ![alt text](energy_j_verification.png) ![alt text](data_integrity.png) ![alt text](integrity_tests_results.png) ![alt text](integrity_db_results.png)
