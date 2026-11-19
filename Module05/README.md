@@ -47,4 +47,4 @@ By measuring query latency, write costs and database size, I could make a more i
 
 **Previous Module — Module 4:** [[Module04](../Module04/README.md)]
 
-**Next Module — Module 6a:** [[Module04](../Module04/README.md)]
+**Next Module — Module 6a:** [[Module06a](../Module06a/README.md)]

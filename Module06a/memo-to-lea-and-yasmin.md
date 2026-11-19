@@ -1,0 +1,8 @@
+# Memo: Moving Historical Reporting to DuckDB
+
+**To:** Lea Winter and Yasmin Kaya  
+**Subject:** Recommendation for historical reporting
+
+I recommend keeping Kortmann's operational workload in SQLite while moving historical analytical reporting to DuckDB using Parquet files. SQLite should continue handling operational records, frequent individual inserts, updates and point lookups, while DuckDB should handle large historical aggregations and monthly reports. In seven interleaved benchmark runs over 2 million rows, SQLite's median query time was 1,927.20 ms compared with DuckDB's 20.52 ms, with matching results. The SQLite database occupies 106 MB, while the exported Parquet file occupies approximately 1.4 MB, although these sizes compare the full database with one exported table rather than identical contents. I recommend scheduling the Parquet export nightly after the operational shift, with the database or IT operations team responsible for monitoring it and checking row counts and financial totals against SQLite. The report should display its last successful refresh time, and a failed refresh should trigger an alert rather than silently presenting an outdated report. A stale copy could omit recent transactions and produce incomplete month-end figures, so users should be warned when the data is not current. The boundary test supports keeping individual transactions in SQLite: in the repeat run, SQLite completed individual inserts in 4.35 ms and lookups in 4.79 ms, compared with DuckDB's 2,160.15 ms and 1,652.52 ms respectively.
+
+I also tested Zstandard compression: the resulting Parquet file was 1,438,857 bytes compared with 1,441,430 bytes for the original, a reduction of 2,573 bytes (approximately 0.18%).

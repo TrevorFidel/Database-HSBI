@@ -6,3 +6,6 @@
 *.parquet
 .env
 __pycache__
+# Module 06a generated CSV files
+Module06a/report_history_utf8.csv
+Module06a/report_jobpart.csv
