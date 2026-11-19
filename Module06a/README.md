@@ -44,6 +44,7 @@ SQLite is suitable for operational workloads involving frequent individual trans
 - [export_parquet.py](export_parquet.py) — Parquet export.
 - [benchmark.py](benchmark.py) — SQLite and DuckDB performance comparison.
 - [boundary.py](boundary.py) — OLTP versus OLAP boundary test.
+  
 **Module06a — Reflection:** [[ref06a](../Reflections/ref06a.md)]
 
 **Previous Module — Module 05:** [[Module05](../Module05/README.md)]
