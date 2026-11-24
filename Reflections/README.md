@@ -25,6 +25,6 @@ Each session reflection is based on the following questions:
 | Session 04 | [Reflection 04](ref04.md) |
 | Session 05 | [Reflection 05](ref05.md) |
 | Session 06a | [Reflection 06a](ref06a.md) |
-
+| Session 06b | [Reflection 06b](ref06b.md) |
 
 [Home](../README.md)
