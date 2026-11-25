@@ -44,7 +44,7 @@ In addition to my database module partners, my final project team included:
 | 04 | Data Definition, Manipulation and Integrity | [Module 04](Module04/README.md) | [Reflection 04](Reflections/ref04.md) |
 | 05 | Database Normalization and Performance | [Module 05](Module05/README.md) | [Reflection 05](Reflections/ref05.md) |
 | 06a | The Analytical Engine — DuckDB | [Module 06a](Module06a/README.md) | [Reflection 06a](Reflections/ref06a.md) |
-| 06b | To be completed | Coming soon | Coming soon |
+| 06b | Polyglot Persistence & the Decision | [Module 06b](Module06b/README.md) | [Reflection 06b](Reflections/ref06b.md) |
 
 ## Additional Resources
 
